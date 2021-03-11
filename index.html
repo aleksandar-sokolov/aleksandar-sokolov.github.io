@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AS</title>
+    <title>Морски шах</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>Hello world</div>
-</body>
-</html>
+    
+    <h1>Морски шах</h1>
+
+    <p class="turn"></p>
+    <table>
+        <tbody>
+            
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+        </tbody>
+        </table>
+        <p class="score">"O" спечелени игри = <span id="Oplayer">0</span></p>
+        <p class="score">"Х" спечелени игри = <span id="Xplayer">0</span></p>
+        <script src="solution.js"></script>
+        <script>document.onload = solve()</script>
+    </body>
+    
+    </html>
